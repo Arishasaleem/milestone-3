@@ -1,0 +1,86 @@
+/* Styling form and resume sections */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background for a subtle contrast */
+}
+
+form {
+    margin: auto;
+    background-color: #e3f2fd; /* Soft blue background for the form */
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow for a modern look */
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #212529; /* Darker color for better readability */
+}
+
+fieldset {
+    border: 2px solid #64b5f6; /* Lighter blue border for a cleaner appearance */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f4f8; /* Very light gray-blue background for the fieldset */
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #1e88e5; /* Slightly darker blue for contrast */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #495057; /* Dark gray for labels */
+}
+
+input, textarea {
+    margin-top: 8px;
+    padding: 10px;
+    width: calc(100% - 22px); /* Adjusted width to accommodate padding */
+    border: 1px solid #64b5f6; /* Consistent border color with fieldset */
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #ffffff; /* White background for input fields */
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #64b5f6; /* Soft blue for button background */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #42a5f5; /* Slightly darker blue on hover */
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #64b5f6; /* Consistent border color */
+    border-radius: 10px;
+    background-color: #e3f2fd; /* Matching background color with form */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+#resume-display h2 {
+    color: #212529; /* Darker color for headings in resume display */
+}
